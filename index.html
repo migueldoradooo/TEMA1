@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio</title>
+    <title>Pgina Principal</title>
     <meta name="Author" content="Miguel ángel">
     <meta nme="Description" content="Pagina Principal">
     <meta name="Keywords" content="HTML, CSS">
@@ -40,8 +40,28 @@
 <meta property="og:image" content="https://drupal.ed.team/sites/default/files/inline-images/EDteam-card.jpg" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
+
+<script src="./JS/main.js"></script>
 </head>
 <body>
-    
+    <header>
+        <h1>Tareas Realizadas este Trimestre</h1>
+        <br>
+        <br>
+        <button onclick="document.getElementById('fechayhora').innerHTML = Date()">Fecha y Hora</button>
+
+        <p id="fechayhora"></p>
+    </header>
+    <nav>
+        <a href="./Ancors/posiciones.html">posiciones</a>
+        <a href="./Bolas/Bolas.html">Bolas</a>
+        <a href="./calculadorado-javascript/calculadora.html">Calculadora</a>
+        <a href="./EstructuraMiguel/Botones.html">Botones</a>
+        <a href="./Head-Completo/Head-Completo.html">Etiqueta Meta</a>
+        <a href="./Proyecto/ArchivoIntroduccionCss.html">Archivo de Introduccion a CSS</a>
+        <a href="./Proyecto-2/InicioWeb.html">Pgina principal de una Web</a>
+        <a href="./Proyecto-3/MapaInteractivoEuropaOccidental.html">Mapa Interactivo de Europa MapaInteractivoEuropaOccidental</a>
+        <a href="./SEO/SEO.html">¿Que es SEO?</a>
+    </nav>
 </body>
 </html>

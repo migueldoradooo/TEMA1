@@ -5,10 +5,10 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(180, 176, 176);
+    background-color: rgb(209, 128, 128);
 }
 .header {
-    background-color: rgb(145, 87, 110);
+    background-color: rgb(1, 235, 215);
     color:rgb(230, 229, 225);
     
 }
@@ -42,7 +42,7 @@ body{
 
 .footer-index{
     display:flex;
-    background-color: rgb(170, 113, 113);
+    background-color: rgb(94, 68, 68);
     color:white;
     height: 10vh;
     width: 100%;

@@ -3,12 +3,23 @@
     padding:0px;
     box-sizing: border-box;
 }
-
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(180, 176, 176);
+}
 .header {
     background-color: black;
-    color:cornsilk
+    color:rgb(230, 229, 225);
+    text-align: center;
 }
 
 .button {
+    margin-left: 85%;
+    margin-bottom: 1%;
     
+}
+
+.nav{
+    padding:5%;
+    padding-bottom: 5%;
 }

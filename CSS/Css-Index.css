@@ -8,15 +8,16 @@ body{
     background-color: rgb(180, 176, 176);
 }
 .header {
-    background-color: rgb(5, 0, 2);
+    background-color: rgb(145, 87, 110);
     color:rgb(230, 229, 225);
-    text-align: center;
+    
 }
 
 .button {
     text-align: right;
     margin-left: 90%;
     margin-bottom: 1%;
+    padding: 0.5%;
     
 }
 
@@ -36,11 +37,12 @@ body{
 .links-nav{
     padding-left:3%;
     margin-top: 9%;
+    color:rgb(28, 149, 165);
 }
 
 .footer-index{
     display:flex;
-    background-color: black;
+    background-color: rgb(170, 113, 113);
     color:white;
     height: 10vh;
     width: 100%;

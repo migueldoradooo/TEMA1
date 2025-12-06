@@ -52,3 +52,30 @@ body{
     bottom:0;
     position: fixed;
 }
+.div-aside-main{
+    display:flex;
+}
+
+.aside-index{
+    border: solid black 1px;
+    width: 200vw;
+    height: auto;
+    margin-left:3%;
+    margin-bottom: 10%;
+    padding:1%;
+    
+    
+}
+
+.links-aside{
+    
+    margin-top: 9%;
+    color:rgb(28, 149, 165);
+}
+
+.main-index{
+    border: solid black 1px;
+    margin-right:10%;
+    margin-left:10%;
+    margin-bottom:10%;
+}

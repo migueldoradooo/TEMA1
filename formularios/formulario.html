@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link rel="ico" type="image/ico "src="./img/tortuga.ico">
+</head>
+<body>
+    
+    <h1> Formularios</h1>
+    <br>
+    <br>
+    <form action="/submit" method="post">   
+        <fieldset>
+            <legend>Datos personales</legend>
+            <label for="nombre">Nombre: </label>
+            <input type="text" id="nombre" name="nombre" required placeholder="Nombre">
+
+            <br>
+            <br>
+            <label for="email">Correo electronico: </label>
+            <input type="email" id="email" name="email" required placeholder="Correo Electronico">
+            <br>
+            <br>
+            <label for="contraseña"></label>
+            <input type="password" id="contraseña" name="contraseña" required placeholder="Contraseña"
+            <br>
+            <br>
+            <br>
+            <label for="confirmar_contraseña">Confirmar contraseña</label>
+            <input type="password" id="confirmar_contraseña" name="confirmar_contraseña" required placeholder="Confirmar contraseña">
+            <br>
+            <br>
+            <input type="tel" id="telefono" name="telefono" required placeholder="Telefono">
+            <br>
+            <br>
+            <textarea id="mensaje" name="mensaje" rows="9" cols="50" required placeholder="Mensaje"></textarea>
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <label for="opciones">Elige un Genero:</label>
+            <select name="" id="" required>   
+                <option value="Masculino">Masculino</option>
+                <option value="Femenino">Femenino</option>
+                <option value="Helicoptero">Helicoptero</option>
+                <option value="Tractor">Tractor</option>
+            </select>
+            <br>
+            <br>
+
+            <label>Fecha de nacimiento: </label>
+            <input type="date" id="hora" name="hora" required>
+            <br>
+            <br>
+            <label for="color_favorito">Selecciona tu color favorito:</label>
+            <input type="color" id="color_favorito" name="color_favorito" required>
+            <br><br>
+            <label> Introduce el CV</label>
+            <input type="file">
+        </fieldset>
+        <br><br>
+        <fieldset> 
+            <legend>Horario de trabajo</legend> 
+            <br>
+            <br>
+            <label for="hora">Selecciona una hora de entrada: </label>
+            <input type="time" id="hora" name="hora" required>
+            <br>
+            <br>
+            <label>Selecciona una hora de salida:</label>
+            <input type="time" id="hora_salida" name="hora_salida" required> 
+            <br>
+            <br>
+            <br>
+            <br>
+        </fieldset>
+
+        <br>
+        <br>
+        <label for="Informacion_correoElectronico"><strong>Desea recibir Ofertas mediante el correo electronico</strong></label>
+        <br>
+        <br>
+        <input type="radio" id="si" name="ofertas" value="si" required >
+        <label for="si">Si</label>
+        <input type="radio" id="no" name="ofertas" value="no" required>
+        <label for="no">No</label>
+        <br><br><br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
+    </form>
+</body>
+</html>
+
+

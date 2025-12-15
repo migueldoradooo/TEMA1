@@ -24,16 +24,16 @@
     <!--cambio de imagenes a triste, sorriente o neutro-->
     <h1>Ejercicio 2 JavaScript</h1>
 
-    <img id=img src="./img/normal.jpeg">
+    <img id=img src="./../img/normal.jpeg">
     <br>
     <br>
-    <button type="button" onclick="document.getElementById('img').src='./img/triste.jpeg'"
+    <button type="button" onclick="document.getElementById('img').src='./../img/triste.jpeg'"
                                 >cara triste</button>
 
-    <button type="button" onclick="document.getElementById('img').src='./img/alegre.jpeg'"
+    <button type="button" onclick="document.getElementById('img').src='./../img/alegre.jpeg'"
                                    >cara alegre</button>
 
-    <button type="button" onclick="document.getElementById('img').src='./img/normal.jpeg'"
+    <button type="button" onclick="document.getElementById('img').src='./../img/normal.jpeg'"
     >cara normal</button>
 
     <!--cabiar a modo oscuro la pagina web-->
@@ -44,19 +44,19 @@
         <button id="dia" onclick="document.body.style.backgroundColor='#ffffff';
                                   document.body.style.color='#111111';this.style.display='none';
                                   document.getElementById('noche').style.display='inline-block';"style="margin-right:3%; width: 50%;">
-        <img src="./img/sol.jpeg" alt="modo claro">
+        <img src="./../img/sol.jpeg" alt="modo claro">
         </button>
 
         <button id="noche" onclick="document.body.style.backgroundColor='#1c1c2b'; 
                                                        document.body.style.color='#ffffff';this.style.display='none';
                                                        document.getElementById('dia').style.display='inline-block';">
-        <img src="./img/luna.jpeg" alt="modo oscuro"></button>
+        <img src="./../img/luna.jpeg" alt="modo oscuro"></button>
     </div>
 
     <!--aparece o desaparece la imagen con el mismo boton-->
     <h1>Ejercicio 4 JavaScript</h1>
 
-    <img src="./img/arbol.jpeg" id="arbol" alt="arbol">
+    <img src="./../img/arbol.jpeg" id="arbol" alt="arbol">
     <br>
     <br>
     <!--uso de let, if y else-->
@@ -69,7 +69,7 @@
 
     <br>
     <!--hacermo con las constantes-->
-    <img src="./img/arbol.jpeg" id="arbol1" alt="arbol">
+    <img src="./../img/arbol.jpeg" id="arbol1" alt="arbol">
 
     <button type="button"onclick="const arbol = document.getElementById('arbol1');
                                   arbol.hidden = !arbol.hidden;

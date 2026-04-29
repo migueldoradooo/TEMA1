@@ -29,3 +29,8 @@ else if(hazPizza == true){
 else{
     console.log(hazPizza)
 }
+
+let year = 2023;
+if (year > '2022'){
+    console.log('Son distintos por diferente tipo de datos')
+}

@@ -1,20 +1,31 @@
 
 //Callback
 
-let copyright = function getCopyright(name, year, formatter){
-                    let copyright = formatter(name,year);
-                    return copyright
+// let copyright = function getCopyright(name, year, formatter){
+//                     let copyright = formatter(name,year);
+//                     return copyright
+// }
+
+// let formatter = function formatter(name,year){
+//     return name + " | " + year;
+// }
+
+
+// console.log(resultado("Miguel Angel", 2026,formatter));
+
+// // Autoinvocar una funcion
+
+// (function(name, year){
+//     console.log(name,year);
+// })("Miguel Angel, 2027");
+
+let hazPizza;
+if (hazPizza == false){
+    console.log('No tengo Pizza')
 }
-
-let formatter = function formatter(name,year){
-    return name + " | " + year;
+else if(hazPizza == true){
+    console.log('tengo Pizza');
 }
-
-
-console.log(resultado("Miguel Angel", 2026,formatter));
-
-// Autoinvocar una funcion
-
-(function(name, year){
-    console.log(name,year);
-})("Miguel Angel, 2027");
+else{
+    console.log(hazPizza)
+}

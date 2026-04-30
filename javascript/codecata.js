@@ -20,6 +20,11 @@
 // })("Miguel Angel, 2027");
 
 let hazPizza;
+let company ="OpenWebinars";
+
+
+
+const year = 2023;
 if (hazPizza == false){
     console.log('No tengo Pizza')
 }
@@ -30,9 +35,34 @@ else{
     console.log(hazPizza)
 }
 
-let year = 2023;
 if (year >= 2021 || year == false){
     console.log('Ok')
 }
 
-let year = 2023
+function getAcademy(){
+    let format = 'From' + company
+    if (!year){
+        let format = 'Make it' + company
+        return format
+    }
+    return format + 'in' + year
+}
+
+function PrintName(){
+    let name = 'Armando';
+    let surname = 'Torres';
+
+    if(name === 'Armando'){
+        console.log(surname);
+
+    }
+}
+
+PrintName();
+    
+if(true){
+    let text = 'un texto cualquiera';
+    console.log(text);
+}
+
+ 

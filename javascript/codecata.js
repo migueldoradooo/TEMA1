@@ -31,6 +31,8 @@ else{
 }
 
 let year = 2023;
-if (year > '2022'){
-    console.log('Son distintos por diferente tipo de datos')
+if (year >= 2021 || year == false){
+    console.log('Ok')
 }
+
+let year = 2023
